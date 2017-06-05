@@ -1,0 +1,23 @@
+{
+  "name": "silc-utilities",
+  "version": "0.0.1",
+  "description": "Utility classes for the silc framework",
+  "main": "src/scss/index.scss",
+  "scripts": {
+    "compile-sass": "sass --update src/scss:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickrigby/silc-utilities.git"
+  },
+  "author": "Nick Rigby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickrigby/silc-utilities/issues"
+  },
+  "homepage": "https://github.com/nickrigby/silc-utilities#readme",
+  "devDependencies": {
+    "sass": "^0.5.0",
+    "silc-core": "^0.2.0"
+  }
+}

@@ -1,0 +1,46 @@
+.silc-display {
+    display: block;
+
+    &--flex {
+        display: flex;
+    }
+
+    &--inline-block {
+        display: inline-block;
+    }
+
+    &--inline {
+        display: inline;
+    }
+}
+
+.silc-hide {
+    display: none;
+}
+
+@for $i from 1 to length($silc-core--breakpoints) + 1 {
+
+    @include media(nth(nth($silc-core--breakpoints, $i), 1)) {
+
+        .silc-display--block-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+            display: block;
+        }
+
+        .silc-display--flex-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+            display: flex;
+        }
+
+        .silc-display--inline-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+            display: inline;
+        }
+
+        .silc-display--inline-block-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+            display: inline-block;
+        }
+
+        .silc-hide--#{nth(nth($silc-core--breakpoints, $i), 1)} {
+            display: none;
+        }
+        
+    }
+}
