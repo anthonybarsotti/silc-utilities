@@ -1,6 +1,6 @@
 {
   "name": "silc-utilities",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility classes for the silc framework",
   "main": "src/scss/index.scss",
   "scripts": {

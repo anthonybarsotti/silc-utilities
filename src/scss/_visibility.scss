@@ -1,45 +1,25 @@
 .silc-display {
     display: block;
 
-    &--flex {
-        display: flex;
-    }
+    @each $display-type in $silc-utilities--display-types {
 
-    &--inline-block {
-        display: inline-block;
-    }
+        &--#{$display-type} {
+            display: #{$display-type};
+        }
 
-    &--inline {
-        display: inline;
     }
-}
-
-.silc-hide {
-    display: none;
 }
 
 @each $breakpoint-name, $breakpoint-width in $silc-core--breakpoints {
 
     @include media($breakpoint-name) {
 
-        .silc-display--block-#{$breakpoint-name} {
-            display: block;
-        }
+        @each $display-type in $silc-utilities--display-types {
 
-        .silc-display--flex-#{$breakpoint-name} {
-            display: flex;
-        }
+            .silc-display--#{$display-type}-#{$breakpoint-name} {
+                display: #{$display-type};
+            }
 
-        .silc-display--inline-#{$breakpoint-name} {
-            display: inline;
-        }
-
-        .silc-display--inline-block-#{$breakpoint-name} {
-            display: inline-block;
-        }
-
-        .silc-hide--#{$breakpoint-name} {
-            display: none;
         }
 
     }
