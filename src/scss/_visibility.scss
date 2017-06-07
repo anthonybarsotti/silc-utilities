@@ -18,29 +18,30 @@
     display: none;
 }
 
-@for $i from 1 to length($silc-core--breakpoints) + 1 {
+@each $breakpoint-name, $breakpoint-width in $silc-core--breakpoints {
 
-    @include media(nth(nth($silc-core--breakpoints, $i), 1)) {
+    @include media($breakpoint-name) {
 
-        .silc-display--block-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+        .silc-display--block-#{$breakpoint-name} {
             display: block;
         }
 
-        .silc-display--flex-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+        .silc-display--flex-#{$breakpoint-name} {
             display: flex;
         }
 
-        .silc-display--inline-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+        .silc-display--inline-#{$breakpoint-name} {
             display: inline;
         }
 
-        .silc-display--inline-block-#{nth(nth($silc-core--breakpoints, $i), 1)} {
+        .silc-display--inline-block-#{$breakpoint-name} {
             display: inline-block;
         }
 
-        .silc-hide--#{nth(nth($silc-core--breakpoints, $i), 1)} {
+        .silc-hide--#{$breakpoint-name} {
             display: none;
         }
-        
+
     }
+
 }
