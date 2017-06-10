@@ -1,4 +1,5 @@
-# Utility class for silc framework
+# silc utilites [![npm version](https://badge.fury.io/js/silc-utilities.svg)](https://badge.fury.io/js/silc-utilities)
+The utilities module is a small web component for the [silc framework](https://silc.io).
 
 ## Display
 Display elements, globally, or at specific breakpoints.
