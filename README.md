@@ -33,3 +33,35 @@ $silc-utilities--display-types: (
     'none'
 ) !default;
 ```
+
+## Text alignment
+Align text, globally, or at specific breakpoints
+
+```html
+<div class="silc-align">
+    <p>Align initial (left) at all screen sizes</p>
+</div>
+```
+
+### Modifiers
+Text can be aligned at specific breakpoints using modifier classes in the `silc-align--{alignment-type}-{breakpoint}` format e.g.
+```html
+<div class="silc-align--right">
+    <p>Align right at all screen sizes</p>
+</div>
+<div class="silc-align--center-small">
+    <p>Align center at small screen sizes and above</p>
+</div>
+```
+
+### Variables
+Display types can be configured via the `$silc-utilities--display-types` variable. By default, the following display types are available:
+
+```scss
+$silc-utilities--alignment-types: (
+    'left',
+    'right',
+    'center',
+    'justify'
+) !default;
+```

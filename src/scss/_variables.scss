@@ -5,3 +5,10 @@ $silc-utilities--display-types: (
     'flex',
     'none'
 ) !default;
+
+$silc-utilities--alignment-types: (
+    'left',
+    'right',
+    'center',
+    'justify'
+ ) !default;

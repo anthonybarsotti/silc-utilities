@@ -56,5 +56,52 @@
 
   .silc-display--none-large {
     display: none; } }
+.silc-align {
+  text-align: initial; }
+  .silc-align--left {
+    text-align: left; }
+  .silc-align--right {
+    text-align: right; }
+  .silc-align--center {
+    text-align: center; }
+  .silc-align--justify {
+    text-align: justify; }
+
+@media (min-width: 400px) {
+  .silc-align--left-small {
+    text-align: left; }
+
+  .silc-align--right-small {
+    text-align: right; }
+
+  .silc-align--center-small {
+    text-align: center; }
+
+  .silc-align--justify-small {
+    text-align: justify; } }
+@media (min-width: 800px) {
+  .silc-align--left-medium {
+    text-align: left; }
+
+  .silc-align--right-medium {
+    text-align: right; }
+
+  .silc-align--center-medium {
+    text-align: center; }
+
+  .silc-align--justify-medium {
+    text-align: justify; } }
+@media (min-width: 1200px) {
+  .silc-align--left-large {
+    text-align: left; }
+
+  .silc-align--right-large {
+    text-align: right; }
+
+  .silc-align--center-large {
+    text-align: center; }
+
+  .silc-align--justify-large {
+    text-align: justify; } }
 
 /*# sourceMappingURL=index.css.map */
