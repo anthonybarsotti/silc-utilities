@@ -4,7 +4,8 @@
   "description": "Utility classes for the silc framework",
   "main": "src/scss/index.scss",
   "scripts": {
-    "compile-sass": "sass --update src/scss:dist"
+    "compile-sass": "sass --update src/scss:dist",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/nickrigby/silc-utilities#readme",
   "devDependencies": {
+    "http-server": "^0.10.0",
     "sass": "^0.5.0",
     "silc-core": "^0.3.1"
   }
