@@ -12,7 +12,7 @@
     "url": "git+https://github.com/nickrigby/silc-utilities.git"
   },
   "author": "Nick Rigby",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nickrigby/silc-utilities/issues"
   },
