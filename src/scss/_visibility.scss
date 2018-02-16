@@ -1,4 +1,4 @@
-.silc-display {
+.#{$silc-utilities--namespace}display {
     display: block;
 
     @each $display-type in $silc-utilities--display-types {
@@ -8,20 +8,20 @@
         }
 
     }
-}
 
-@each $breakpoint-name, $breakpoint-width in $silc-core--breakpoints {
+    @each $breakpoint-name, $breakpoint-width in $silc-core--breakpoints {
 
-    @include media($breakpoint-name) {
-
-        @each $display-type in $silc-utilities--display-types {
-
-            .silc-display--#{$display-type}-#{$breakpoint-name} {
-                display: #{$display-type};
+        @include media($breakpoint-name) {
+    
+            @each $display-type in $silc-utilities--display-types {
+    
+                &--#{$display-type}-#{$breakpoint-name} {
+                    display: #{$display-type};
+                }
+    
             }
-
+    
         }
-
+    
     }
-
 }
