@@ -4,7 +4,7 @@
 @each $margin-name, $margin-value in $silc-utilities--margin {
 
     .#{$silc-utilities--namespace}m--#{$margin-name} {
-        margin: unquote($margin-value);
+        margin: unquote($margin-value) !important;
     }
 
 }
@@ -17,7 +17,7 @@
     @each $margin-name, $margin-value in $silc-utilities--margin {
 
         .#{$silc-utilities--namespace}m#{$margin-type}--#{$margin-name} {
-            margin-#{$margin-type}: unquote($margin-value);
+            margin-#{$margin-type}: unquote($margin-value) !important;
         }
 
     }
@@ -34,7 +34,7 @@
         @include media($breakpoint-name) {
 
             .#{$silc-utilities--namespace}m--#{$margin-name}-#{$breakpoint-name} {
-                margin: unquote($margin-value);
+                margin: unquote($margin-value) !important;
             }
 
         }
@@ -55,7 +55,7 @@
             @include media($breakpoint-name) {
 
                 .#{$silc-utilities--namespace}m#{$margin-type}--#{$margin-name}-#{$breakpoint-name} {
-                    margin-#{$margin-type}: unquote($margin-value);
+                    margin-#{$margin-type}: unquote($margin-value) !important;
                 }
 
             }
