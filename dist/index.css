@@ -16,116 +16,116 @@ html {
 .silc-display {
   display: block; }
   .silc-display--block {
-    display: block; }
+    display: block !important; }
   .silc-display--inline {
-    display: inline; }
+    display: inline !important; }
   .silc-display--inline-block {
-    display: inline-block; }
+    display: inline-block !important; }
   .silc-display--flex {
-    display: flex; }
+    display: flex !important; }
   .silc-display--none {
-    display: none; }
+    display: none !important; }
   @media (min-width: 400px) {
     .silc-display--block-small {
-      display: block; }
+      display: block !important; }
     .silc-display--inline-small {
-      display: inline; }
+      display: inline !important; }
     .silc-display--inline-block-small {
-      display: inline-block; }
+      display: inline-block !important; }
     .silc-display--flex-small {
-      display: flex; }
+      display: flex !important; }
     .silc-display--none-small {
-      display: none; } }
+      display: none !important; } }
   @media (min-width: 800px) {
     .silc-display--block-medium {
-      display: block; }
+      display: block !important; }
     .silc-display--inline-medium {
-      display: inline; }
+      display: inline !important; }
     .silc-display--inline-block-medium {
-      display: inline-block; }
+      display: inline-block !important; }
     .silc-display--flex-medium {
-      display: flex; }
+      display: flex !important; }
     .silc-display--none-medium {
-      display: none; } }
+      display: none !important; } }
   @media (min-width: 1200px) {
     .silc-display--block-large {
-      display: block; }
+      display: block !important; }
     .silc-display--inline-large {
-      display: inline; }
+      display: inline !important; }
     .silc-display--inline-block-large {
-      display: inline-block; }
+      display: inline-block !important; }
     .silc-display--flex-large {
-      display: flex; }
+      display: flex !important; }
     .silc-display--none-large {
-      display: none; } }
+      display: none !important; } }
 
 .silc-align {
   text-align: initial; }
   .silc-align--left {
-    text-align: left; }
+    text-align: left !important; }
   .silc-align--right {
-    text-align: right; }
+    text-align: right !important; }
   .silc-align--center {
-    text-align: center; }
+    text-align: center !important; }
   .silc-align--justify {
-    text-align: justify; }
+    text-align: justify !important; }
   @media (min-width: 400px) {
     .silc-align--left-small {
-      text-align: left; }
+      text-align: left !important; }
     .silc-align--right-small {
-      text-align: right; }
+      text-align: right !important; }
     .silc-align--center-small {
-      text-align: center; }
+      text-align: center !important; }
     .silc-align--justify-small {
-      text-align: justify; } }
+      text-align: justify !important; } }
   @media (min-width: 800px) {
     .silc-align--left-medium {
-      text-align: left; }
+      text-align: left !important; }
     .silc-align--right-medium {
-      text-align: right; }
+      text-align: right !important; }
     .silc-align--center-medium {
-      text-align: center; }
+      text-align: center !important; }
     .silc-align--justify-medium {
-      text-align: justify; } }
+      text-align: justify !important; } }
   @media (min-width: 1200px) {
     .silc-align--left-large {
-      text-align: left; }
+      text-align: left !important; }
     .silc-align--right-large {
-      text-align: right; }
+      text-align: right !important; }
     .silc-align--center-large {
-      text-align: center; }
+      text-align: center !important; }
     .silc-align--justify-large {
-      text-align: justify; } }
+      text-align: justify !important; } }
 
 .silc-color--primary {
-  color: #369; }
+  color: #369 !important; }
 
 .silc-bg--primary {
-  background: #369; }
+  background: #369 !important; }
 
 .silc-color--secondary {
-  color: #4E7DAB; }
+  color: #4E7DAB !important; }
 
 .silc-bg--secondary {
-  background: #4E7DAB; }
+  background: #4E7DAB !important; }
 
 .silc-color--tertiary {
-  color: #7BA3CA; }
+  color: #7BA3CA !important; }
 
 .silc-bg--tertiary {
-  background: #7BA3CA; }
+  background: #7BA3CA !important; }
 
 .silc-color--white {
-  color: #fff; }
+  color: #fff !important; }
 
 .silc-bg--white {
-  background: #fff; }
+  background: #fff !important; }
 
 .silc-color--black {
-  color: #000; }
+  color: #000 !important; }
 
 .silc-bg--black {
-  background: #000; }
+  background: #000 !important; }
 
 /* Global margin e.g. silc-m--1
    ========================================================================== */
