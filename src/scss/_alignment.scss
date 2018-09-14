@@ -4,7 +4,7 @@
     @each $alignment-type in $silc-utilities--alignment-types {
 
         &--#{$alignment-type} {
-            text-align: #{$alignment-type};
+            text-align: #{$alignment-type} !important;
         }
 
     }
@@ -16,7 +16,7 @@
             @each $alignment-type in $silc-utilities--alignment-types {
     
                 &--#{$alignment-type}-#{$breakpoint-name} {
-                    text-align: #{$alignment-type};
+                    text-align: #{$alignment-type} !important;
                 }
     
             }

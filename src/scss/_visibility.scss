@@ -4,7 +4,7 @@
     @each $display-type in $silc-utilities--display-types {
 
         &--#{$display-type} {
-            display: #{$display-type};
+            display: #{$display-type} !important;
         }
 
     }
@@ -16,7 +16,7 @@
             @each $display-type in $silc-utilities--display-types {
     
                 &--#{$display-type}-#{$breakpoint-name} {
-                    display: #{$display-type};
+                    display: #{$display-type} !important;
                 }
     
             }
